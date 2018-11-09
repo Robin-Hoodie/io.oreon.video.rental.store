@@ -11,7 +11,6 @@ import static io.oreon.casumo.video.rental.store.model.FilmType.REGULAR;
 
 public class TestConstants {
 
-    //TODO: Remove variables?
     public static final String PREMIUM_FILM_NAME = "premiumFilm";
     public static final String REGULAR_FILM_NAME = "regularFilm";
     public static final String OLD_FILM_NAME = "oldFilm";

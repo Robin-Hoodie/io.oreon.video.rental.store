@@ -25,7 +25,6 @@ import static org.springframework.restdocs.request.RequestDocumentation.requestP
 import static org.springframework.restdocs.restassured3.RestAssuredRestDocumentation.document;
 
 
-//TODO: Document body and params
 public class VideoRentalStoreResourceRestDocTest extends RestDocTest {
 
     private static final String CUSTOMER_NAME_PARAM_KEY = "customer";
