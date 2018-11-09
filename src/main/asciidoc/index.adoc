@@ -1,0 +1,187 @@
+= Casumo Video Rental Store
+:doctype: book
+:icons: font
+:toc: left
+:toclevels: 4
+:sectlinks:
+:source-highlighter: highlightjs
+
+= Customers
+
+== List Customers
+
+View a list of all customers
+
+=== Request
+
+Via curl:
+include::{snippets}/customers/list/ok/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/customers/list/ok/http-request.adoc[]
+
+=== Response
+
+include::{snippets}/customers/list/ok/http-response.adoc[]
+
+== List Customers: empty
+
+=== Request
+
+Via curl:
+include::{snippets}/customers/list/empty/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/customers/list/empty/http-request.adoc[]
+
+=== Response
+
+include::{snippets}/customers/list/empty/http-response.adoc[]
+
+= Films
+
+== List Films
+
+View a list of all films
+
+=== Request
+
+Via curl:
+include::{snippets}/films/list/ok/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/films/list/ok/http-request.adoc[]
+
+=== Response
+
+include::{snippets}/films/list/ok/http-response.adoc[]
+
+== List Films: empty
+
+=== Request
+
+Via curl:
+include::{snippets}/films/list/empty/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/films/list/empty/http-request.adoc[]
+
+=== Response
+
+include::{snippets}/films/list/empty/http-response.adoc[]
+
+== Rent Films
+
+=== Request
+
+Via curl:
+include::{snippets}/films/rent/ok/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/films/rent/ok/http-request.adoc[]
+
+=== Response
+
+include::{snippets}/films/rent/ok/http-response.adoc[]
+
+== Rent Films: Error for film
+
+Rent one or more films
+
+=== Request
+
+Via curl:
+include::{snippets}/films/rent/error-filmnames/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/films/rent/error-filmnames/http-request.adoc[]
+
+=== Response
+
+include::{snippets}/films/rent/error-filmnames/http-response.adoc[]
+
+== Rent Films: Error for days rented
+
+=== Request
+
+Via curl:
+include::{snippets}/films/rent/error-daysrented/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/films/rent/error-daysrented/http-request.adoc[]
+
+=== Response
+
+include::{snippets}/films/rent/error-daysrented/http-response.adoc[]
+
+== Return Films
+
+Return one or more films
+
+=== Request
+
+Via curl:
+include::{snippets}/films/return/ok/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/films/return/ok/http-request.adoc[]
+
+Request parameters:
+include::{snippets}/films/return/ok/request-parameters.adoc[]
+
+=== Response
+
+include::{snippets}/films/return/ok/http-response.adoc[]
+
+== Return Films: Error for customer
+
+=== Request
+
+Via curl:
+include::{snippets}/films/return/error-customer/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/films/return/error-customer/http-request.adoc[]
+
+Request parameters:
+include::{snippets}/films/return/error-customer/request-parameters.adoc[]
+
+=== Response
+
+include::{snippets}/films/return/error-customer/http-response.adoc[]
+
+== Return Films: Error for films
+
+=== Request
+
+Via curl:
+include::{snippets}/films/return/error-films/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/films/return/error-films/http-request.adoc[]
+
+Request parameters:
+include::{snippets}/films/return/error-films/request-parameters.adoc[]
+
+=== Response
+
+include::{snippets}/films/return/error-films/http-response.adoc[]
+
+== Return Films: Error for rental days
+
+Return one or more films
+
+=== Request
+
+Via curl:
+include::{snippets}/films/return/error-rentaldays/curl-request.adoc[]
+
+HTTP request:
+include::{snippets}/films/return/error-rentaldays/http-request.adoc[]
+
+Request parameters:
+include::{snippets}/films/return/error-rentaldays/request-parameters.adoc[]
+
+=== Response
+
+include::{snippets}/films/return/error-rentaldays/http-response.adoc[]

@@ -1,0 +1,5 @@
+server:
+  port: 4200
+spring:
+  jpa:
+    open-in-view: false
