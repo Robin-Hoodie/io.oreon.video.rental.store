@@ -1,4 +1,4 @@
-#Video Rental Store
+# Video Rental Store
 
 REST API for renting out movies built with Spring Boot 2 and Spring Data JPA.
 When running this application with the `dev` profile, several films and one customer will be added to the database.
