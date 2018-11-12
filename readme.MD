@@ -18,7 +18,7 @@ Using this API you will be able to:
 
 ## Using the API
 
-- See restdocs at [http://localhost:4200/docs/index.html]
+- See restdocs at [http://localhost:4200/docs/index.html]()
 - Alternatively import [this Postman collection](https://www.getpostman.com/collections/6a4cd9bf4a44f8a934e6) 
 
 ## Choices
